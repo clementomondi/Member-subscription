@@ -1,0 +1,138 @@
+/* Add CSS here */
+.body-container{
+    background-color:#f3f2fb;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    
+    }
+    .container{
+    height:390px;
+    width:50%;
+    background-color:#201c4c;
+    border-radius:0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:600px;
+    }
+    .container-2{
+    position: absolute;
+    height:345px;
+    width:75%;
+    background-color:white;
+    border-radius:0.5em;
+    box-shadow:0 2px 2px rgb(155, 146, 146);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#201c4c;
+   
+    }
+    
+    .topcontainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lowercontainer {
+        
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    h1{
+    font-weight: 800;
+    margin-top:30px;
+    }
+    h2{
+    font-size:10.5px;
+    }
+    p{
+    font-size:10px;
+    line-height:15px;
+    }
+    .icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+    }
+    .card{
+    background-color: rgb(228, 228, 238);
+    width:100px;
+    height:25px;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:20px;
+    }
+    .con{
+    display: flex;
+    gap:5px;
+    }
+    .material-symbols-outlined{
+    font-size:17px;
+    margin-top:5px;
+    }
+    h3{
+    font-weight: 700;
+    font-size: 12px;
+    }
+    .content{
+    margin-top:130px;
+    margin-left:-230px;
+    text-align: center;
+    }
+    h4{
+    color: white;
+    font-size:10px;
+    }
+    .btn{
+    background-color: #201c4c;
+    width:30%;
+    height:23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+    border-radius:0.3em;
+    }
+    .subHeader {
+        padding-bottom: 10px;
+    }
+    .support {
+        padding-bottom: 10px;
+    }
+    .lud{
+    padding-top:5px;
+    }
+    .box{
+    height:65px;
+    width:78%;
+    border-radius:5em;
+    }
+    .closet{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-left:40px;
+    }
+    button{
+    background-color: #201c4c;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    border-radius:0.5em;
+    }
+    .arrowleft,
+    .arrowright{
+    margin-top:40px;
+    }
